@@ -1,4 +1,4 @@
-# R2-E (Research Robot (R2): Earth-class/Education)
+# R2-E - Research Robot (R2): Earth-class/Education
 
 The name `R2-E` is inspired by two of the most famous robots on the screens: `R2-D2` and `WALL-E`.  In our project, the acronym has a different meaning: `R2` stands for Research Robot since it is a robot created for research; at the same time, the `E` signifies educational, while also evoking the essence of `WALL-E` as an earth-class robot.
 
