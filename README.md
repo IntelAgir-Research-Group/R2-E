@@ -70,6 +70,13 @@ Finally, try to teleoperate the robot by using your keyboard:
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
+## INSPIRATIONAL PROJECTS
+
+This project is inspired in other attempts, which have been systematically mined from GitHub:
+
+- aaa
+- bbb
+
 ## CONTRIBUTIONS
 
 We are more than welcome to help us with **R2-E** project and are excited that you're interested in improving it! Please follow this protocol to ensure that your contributions align with the project’s goals and standards.
