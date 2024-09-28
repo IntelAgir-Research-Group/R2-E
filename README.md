@@ -51,19 +51,54 @@ Now we are ready to go. Access your SBC via SSH and type the following commands.
 
 ```bash
 source /opt/ros/humble/setup.sh
-ros2 launch r2e_bringup --ros-args -p base_ip:<ip of the vacuum>
+export ROS_BASE_IP="<our vacuum IP>"
+ros2 launch r2e_bringup minimal_bringup
 ```
 
-Now, in your laptop, you can check the sensors with ROS topic commands:
+Now, in your laptop (with your ROS environment sourced), you can check the sensors with ROS topic commands:
 ```bash
-ros2 topic echo aaa
+ros2 topic echo /scan
 ```
 
-Try to teleoperate the robot:
+You can also make it move `forward` and `backward`:
 ```bash
-ros2 run teleoperation teleoperation
+python3 fwd_bkw.py
+```
+
+Finally, try to teleoperate the robot by using your keyboard:
+```bash
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
 ## CONTRIBUTIONS
 
-TBA pr policy
+We are more than welcome to help us with **R2-E** project and are excited that you're interested in improving it! Please follow this protocol to ensure that your contributions align with the project’s goals and standards.
+
+### 1. Code of Conduct
+
+All contributors are expected to be respectful, inclusive, and mindful of others in the community. Always have in mind that sustainability is our main goal.
+
+### 2. How to Contribute
+
+#### a. Reporting Issues
+- If you find a bug or have a feature request, open an issue in the [GitHub Issues](link-to-issues).
+- Provide as much detail as possible, including steps to reproduce the bug, the expected behavior, and screenshots if applicable.
+  
+#### b. Suggesting Features
+- Open an issue labeled **Feature Request**. All the tickets for new features will be maintained there. We also keep a Kanban with some kind of sprint. Please, [request](mailto:michelalbonico@utfpr.edu.br) to be added to it.
+- Clearly describe the problem your feature addresses and the benefits it will bring to the project.
+- We advise to create a branch starting with `feat-` for each new feature.
+
+#### c. Submitting Code
+1. **Fork** the repository.
+2. Make your changes. 
+3. Proceed with a **pull-request** (`PR`) only when you have stable code running.
+
+#### d. Reviewing Process
+- Once your `PR` is submitted, a maintainer will review it and provide feedback.
+- Be prepared to make revisions if requested.
+- After approval, your `PR` will be merged into the main branch.
+
+### 3. Direct communication with the Team
+
+Feel free to reach us out through our [`Discord`](#) channel.
