@@ -10,13 +10,17 @@ Finally, our research is inspired by three pillars of `sustainability`: 1) reuse
 
 TBA - Description of the project.
 
-### INSPIRATIONAL PROJECTS
+### Project Leaders
+
+TBA
+
+### Inspirational Projects
 
 This project is inspired in other attempts, which have been systematically mined from GitHub:
 
 - TBA
 
-### EDUCATIONAL / RESEARCH PROJECTS
+### Our Educational / Research Projects
 
 Here you can find most relevant `research` and `educational` projects based on and related to `R2-E` robot.
 
@@ -49,7 +53,7 @@ The image of the Ubuntu Linux system for such a device as well an explanation of
 
 We additionally provide a RaspberryPi image [here](#) for a matter of reproducibility since those devices are popular and accessible around the world.
 
-## ROS PACKAGES
+## ROS PACKAGES / HOWTO
 
 We have been developing multiple packages for this robot according to our research needs. Here, we only describe the ones necessary to bring up the robot, making it to listen to teleoperation commands and to broadcast its sensor data to preset ROS topics.
 
@@ -82,7 +86,7 @@ Finally, try to teleoperate the robot by using your keyboard:
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
-## CONTRIBUTIONS
+## HOW TO CONTRIBUTE
 
 We are more than welcome to help us with **R2-E** project and are excited that you're interested in improving it! Please follow this protocol to ensure that your contributions align with the project’s goals and standards.
 
