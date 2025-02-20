@@ -26,6 +26,21 @@ Here you can find most relevant `research` and `educational` projects based on a
 
 - TBA
 
+## ROOTING THE VACUUM
+
+
+### Xiaomi Cloud
+
+For you to communicate with the original Vacuum system, you need to pass by Xiaomi Cloud. For this, you need the token of the Vacuum. 
+
+To get the token, follow [this](https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor.git) tutorial.
+
+Then, set it globally:
+```bash
+export VACUUM_X_TOKEN=<token>
+echo "export VACUUM_X_TOKEN=<token>" >> ~/.bashrc
+```
+
 ## ROBOT PARTS
 
 Here we describe the design of the physical robot.
